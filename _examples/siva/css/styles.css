@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'jost',
+        sans-serif;
+    /* letter-spacing: 1px; */
+}
+
+/* navbar */
+nav {
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+    box-shadow: 0 0 3px #bbbaba;
+}
+
+.navbar-brand {
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.nav-item {
+    padding: 0 16px;
+}
+
+.nav-link {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.lists {
+    padding: 3% 2%;
+    list-style: none;
+}
+
+.side-nav {
+    box-shadow: 0 0 10px #bbbaba;
+    padding: 0;
+    margin: 0;
+    width: 350px;
+    position: fixed;
+    height: 100vh;
+    top: 75px;
+    background-color: #F2F2F2FF;
+    scroll-behavior: smooth;
+}
+
+.side-nav-link {
+    font-size: 1.25rem;
+    letter-spacing: 0.5px;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+.side-nav-box {
+    padding: 5% 4%;
+}
+
+.del-btn {
+    margin-top: 4px;
+    height: 25px;
+    width: 25px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background-color: rgb(180, 40, 40);
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn {
+    margin-top: 5px;
+    margin-top: 5px;
+    display: none;
+    /* margin-left: 350px; */
+}
+
+@media (max-width: 767.98px) {
+    .side-nav {
+        display: none;
+    }
+
+    .btn {
+        display: block;
+    }
+}

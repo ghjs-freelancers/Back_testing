@@ -15,6 +15,7 @@ excel = db["excel"]
 #collection or table name "excel"
 
 def dbInsert():
+    #inserting values in the form json
     json={
         "location":"C:/Users/Jeevanatham N/Documents/csv&xlsx/sample.csv",
         "filename":"sample",

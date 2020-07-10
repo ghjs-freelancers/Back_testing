@@ -1,3 +1,8 @@
+#dependency are pymongo,openpyxl
+#pip install pymongo
+#pip install openpyxl
+#install mongodb using port this no 27017 
+
 import pymongo
 import csv
 from openpyxl import load_workbook
